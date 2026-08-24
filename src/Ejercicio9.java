@@ -8,4 +8,10 @@ public class Ejercicio9 {
             return "Excelente";
         }
     }
+    public static void main(String[] args) {
+
+        String resultado = ClasificarNota(4.7);
+
+        System.out.println("Resultado: " + resultado);
+    }
 }
