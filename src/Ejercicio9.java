@@ -1,0 +1,11 @@
+public class Ejercicio9 {
+    public static String ClasificarNota(double nota) {
+        if (nota < 3.0) {
+            return "Reprobado";
+        } else if (nota < 4.5) {
+            return "Aprobado";
+        } else {
+            return "Excelente";
+        }
+    }
+}
