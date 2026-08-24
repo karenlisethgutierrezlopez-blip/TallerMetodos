@@ -6,5 +6,6 @@ public class Ejercicio2 {
     }
 
     public static void main(String[] args) {
+        saludarEstudiante("Karen", 17);
     }
 }
