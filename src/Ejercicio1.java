@@ -3,4 +3,7 @@ public class Ejercicio1 {
         System.out.println("Bienvenidos todos");
     }
 
+    public static void main (String[] args){
+        mostrarbienvenida();
     }
+}
