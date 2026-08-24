@@ -7,4 +7,10 @@ public class Ejercicio8 {
         }
         return tabla;
     }
+    public static void main(String[] args) {
+        int[] resultado = TablaMultiplicar(5);
+        for(int i = 0; i < resultado.length; i++){
+            System.out.println("5 x "+ (i + 1) + " = " + resultado[i]);
+        }
+    }
 }
