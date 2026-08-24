@@ -11,4 +11,12 @@ public class Ejercicio5 {
         }
         return suma/notas.length;
     }
+    public static void main(String[] args) {
+        double promedionotas = CalculaPromedio(3.5, 5.0);
+        double[] notas = {3.5, 4.5, 5.0, 2.0};
+        double promedioarreglo = CalcularPromedio(notas);
+
+        System.out.println("Promedio de la dos notas es de "+promedionotas);
+        System.out.println("Promedio de todas las notas ingresadas es de "+promedioarreglo);
+    }
 }
